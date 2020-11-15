@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css" class="rel">
+    <link rel="stylesheet" href="css/style.css" class="rel">
+    <link rel="stylesheet" href="fonts/style.css">
+    <title>Municipalidad de Ate</title>
+</head>
+
+<body>
+    <!---BARRA DE NAVEGACION---->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"> <img src="img/logo.jpg" alt="logo municipalidad de ate"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Alcalde">Alcalde</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Obras">Obras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Registro.html">Registro</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Slider-->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/muni1.jpg" class="d-block w-100" alt="Municipalidad de Ate">
+            </div>
+            <div class="carousel-item">
+                <img src="img/muni2.jpg" class="d-block w-100" alt="Municipalidad de Ate">
+            </div>
+            <div class="carousel-item">
+                <img src="img/muni3.jpg" class="d-block w-100" alt="Municipalidad de Ate">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--Descripcion-->
+    <span id="Alcalde"></span>
+    <div class="card mb-3" style="max-width: 900px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="img/card-1.jpg" class="card-img" alt="edde cuellar">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Edde Cuellar</h5>
+                    <p class="card-text">Han transcurrido más de 3 meses desde que Edde Cuellar Alegría, asumió la administración de la Municipalidad del distrito de Ate, sin bien es cierto, Ate es un distrito con más de 650 mil habitantes, considerada el tercer distrito
+                        más grande de la capital limeña. Por ello, se convierte en un reto para sus gobernantes para impulsar y construir el progreso y desarrollo que garanticen mejores condiciones de vida para la población.</p>
+                    <p class="card-text"><small class="text-muted">Ultima actualizacion hace 5 meses</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Descripcion Colapsada-->
+    <span id="Obras"></span>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Limpieza de Ate
+              </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/cuadro1.jpg" class="card-img" alt="limpieza de ate">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        En un esfuerzo conjunto entre los funcionarios de la Municipalidad de Ate y los vecinos de Huaycán, se llevó a cabo hoy una campaña de limpieza en la que se aprovechó la oportunidad para sensibilizar a la población para que arroje sus residuos sólidos
+                                        en los horarios establecidos por la comuna a fin de que puedan ser debidamente recogidos por los camiones de limpieza. Señaló que para el trabajo de limpieza la municipalidad cuenta con casi 400 barredores municipales
+                                        y 14 vehículos compactadores, los cuales a diario recogen hasta 410 toneladas de residuos sólidos por día, los que son enviados al relleno sanitario de Huaycoloro.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Obras en Ate
+              </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/cuadro2.jpg" class="card-img" alt="Obras de Ate">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        El gerente general de Sedapal, Neil Michael Vega Baltodano, anunció que se invertirán S/ 600 millones en obras de agua potable y alcantarillado en beneficio de los usuarios de los distritos de Ate y Santa Anita. Explicó que este proyecto beneficiará a
+                                        unos 500 mil habitantes. Los trabajos comprenden 4,215 conexiones y 300 km de redes de agua potable y alcantarillado. Para el sistema de agua potable se construirán 21 reservorios, seis cisternas y cinco pozos.
+                                        En tanto, para el sistema de alcantarillado se instalará el colector de alivio Nicolás de Piérola y seis colectores. El anuncio se hizo durante una audiencia pública que se realizó en el marco de Diálogo por el
+                                        Agua, a la que también asistieron Javier Morán de la Oficina de Diálogo y Gestión Social del Ministerio de Vivienda, Construcción y Saneamiento (MVCS); Hugo Salazar, asesor del Viceministro de Construcción y Saneamiento;
+                                        y otros funcionarios del Programa Agua Segura.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Seguridad en Ate
+              </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/cuadro3.jpg" class="card-img" alt="Seguridad de Ate">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        La Seguridad Ciudadana es un problema de orden nacional que requiere la atención rápida y preferente para así detener la tendencia creciente y preocupante de la delincuencia que afecta a muchos peruanos que residen en el distrito de Ate, hoy en la actualidad
+                                        ya no podemos hablar solo de percepción de inseguridad, éste fenómeno social ya es una realidad, lo que estamos padeciendo y viviendo nos crea una constante zozobra y preocupación a los ciudadanos. En realidad ¿Qué
+                                        son los Observatorios de Seguridad Ciudadana? Son espacios intersectoriales e interdisciplinarios donde se recopilan datos e información que puede orientar el análisis de información necesaria, relevante y conﬁable
+                                        sobre los diferentes tipos de violencia, lesiones y hechos delictivos que se producen en el Distrito de Ate, que de manera continua y oportuna permiten la deﬁnición de indicadores, políticas y procesos dirigidos
+                                        a mejorar las condiciones de seguridad y convivencia ciudadana. El proceso debe orientar la toma de decisiones y programas de prevención por parte de las autoridades competentes,
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div id="padre">
+            <div class="columna">
+                <h3>Suscribete</h3>
+                <input type="email" placeholder="Escriba su correo">
+                <input type="submit" value="Suscribirse">
+            </div>
+            <div class="columna">
+                <h3>Redes Sociales</h3>
+                <div id="redes">
+                    <ul>
+                        <li class="icon-twitter"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                        <li class="icon-telegram"><a href="https://web.telegram.org/#/login" target="_blank">Telegram</a></li>
+                        <li class="icon-youtube"><a href="https://www.youtube.com/?gl=PE&tab=r1" target="_blank">Youtube</a></li>
+                        <li class="icon-skype"><a href="https://www.skype.com/es/" target="_blank">Skype</a></li>
+                        <li class="icon-google-plus2"><a href="https://es.wikipedia.org/wiki/Google%2B" target="_blank">Google+</a></li>
+                        <li class="icon-instagram"><a href="https://www.instagram.com/?hl=es-la" target="_blank">Instagram</a></li>
+                        <li class="icon-facebook2"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="columna">
+                <h3>Sobre Nosotros</h3>
+                <p>La ciudad de Ate fue la capital del distrito hasta que el 13 de febrero de 1951 se dispuso, mediante una ley del Congreso de la República, que la ciudad de Vitarte sea la capital.</p>
+                <ul>
+                    <li class="icon-phone"><a href="#">+5193071318</a></li>
+                    <li class="icon-mail2"><a href="#">Municipalidad_Ate@hotmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="derechos">
+            &copy; 2020, Todos los derechos reservados
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/codigobootstrap.js"></script>
+</body>
+
+</html>
